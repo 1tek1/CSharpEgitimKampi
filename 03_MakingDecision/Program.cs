@@ -10,7 +10,7 @@ namespace _03_MakingDecision
     {
         static void Main(string[] args)
         {
-            #region If
+            #region If Else
             //Örnek1
 
             //Console.Write("Lütfen şifreyi giriniz: ");
@@ -45,6 +45,8 @@ namespace _03_MakingDecision
             //    Console.Write("Hatalı bilgi");
             //}
 
+            //Örnek3
+
             //int number;
             //Console.Write("Sayıyı Giriniz: ");
             //number = int.Parse(Console.ReadLine());
@@ -56,6 +58,8 @@ namespace _03_MakingDecision
             //{
             //    Console.WriteLine("Sayı hatalı");
             //}
+
+            //Örnek4
 
             //int exam1, exam2, exam3, average;
             //string result = "Hata!";
@@ -91,6 +95,8 @@ namespace _03_MakingDecision
 
             //Console.Write(result);
 
+            //Örnek5
+
             //string city;
             //Console.Write("Lütfen şehir girişi yapınız: ");
             //city = Console.ReadLine();
@@ -104,7 +110,55 @@ namespace _03_MakingDecision
             //    Console.WriteLine("şehir mevcut değil");
             //}
 
+            //Örnek6
 
+            //Console.Write("Lütfen Kullanıcı Adını Giriniz: ");
+            //string username = Console.ReadLine();
+            //if (username != "admin")
+            //{
+            //    Console.Write("bu kullanıcı adı kabul edilemez");
+            //}
+            //else
+            //{
+            //    Console.Write("Hoş Geldiniz");
+            //}
+            //Console.Read();
+
+            #endregion
+            #region Mod İşlemleri
+
+            //Örnek1
+
+            //int number;
+            //number = 26;
+            //int result = number % 5;
+            //Console.WriteLine(result);
+
+            //Örnek2
+
+            //Console.Write("Lütfen 1.sayıyı giriniz: ");
+            //int number1 = int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen 2.sayıyı giriniz: ");
+            //int number2 = int.Parse(Console.ReadLine());
+
+            //int result = number1 % number2;
+
+            //Console.Write("1.sayının 2.sayıya bölümünden kalan: " + result);
+
+            //Örnek3
+
+            //Console.Write("Lütfen sayıyı giriniz: ");
+            //int number = int.Parse(Console.ReadLine());
+
+            //if (number % 2 == 0)
+            //{
+            //    Console.Write("Sayı Çifttir");
+            //}
+            //else
+            //{
+            //    Console.Write("Sayı tektir");
+            //}
             Console.Read();
 
             #endregion
