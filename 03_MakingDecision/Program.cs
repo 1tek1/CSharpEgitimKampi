@@ -159,6 +159,32 @@ namespace _03_MakingDecision
             //{
             //    Console.Write("Sayı tektir");
             //}
+
+            char team;
+            Console.Write("Lütfen takım sembolünü giriniz: ");
+            team = char.Parse(Console.ReadLine());
+
+            if(team == 'g' | team == 'G')
+            {
+                Console.Write("Galatasaray");
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             Console.Read();
 
             #endregion
