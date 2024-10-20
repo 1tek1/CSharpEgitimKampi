@@ -193,7 +193,7 @@ namespace _04_Loops
 
 
             #endregion
-            Console.Read();
+         //   Console.Read();
         }
     }
 }
