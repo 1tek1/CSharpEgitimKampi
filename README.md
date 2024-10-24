@@ -1,9 +1,10 @@
-# C# EĞİTİM KAMPI
-[Youtube Eğitim Linki](https://www.youtube.com/watch?v=oev5wH-_XCI&list=PLKnjBHu2xXNPmFMvGKVHA_ijjrgUyNIXr)
+#👉C# EĞİTİM KAMPI👈
+---
+[Youtube Eğitim Linki](https://www.youtube.com/watch?v=oev5wH-_XCI&list=PLKnjBHu2xXNPmFMvGKVHA_ijjrgUyNIXr)  👀
 ---
 Bu repository Murat Yücedağ tarafından gerçekleştirilen Youtube C# Eğitim Kampının kodlarını içermektedir.Konular sıfırdan başlayarak örneklerle anlatılmaktadır.Sıfırdan C# öğrenmek isteyen,bildiklerini
 pekiştirmek, farklı örnekler görmek isteyen herkes faydalanabilir.
-<br/><br/>Not:Bu repo haftalık olarak güncellenmektedir!
+<br/><br/>Not:Bu repo haftalık olarak güncellenmektedir!😎
 ---
 ## 1 Başlangıç
 Bu bölümde C# programlama diline giriş yapılarak yazdırma komutları tanıtılmakta ve string ile integer veri tipleri kullanılarak temel programlama adımları öğretilmektedir.
