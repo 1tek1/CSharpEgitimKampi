@@ -50,6 +50,59 @@ namespace _08_Methods
 
 
             #endregion
+
+            #region Geriye Değer Döndürmeyen String Parametreli Metotlar
+
+            //1
+
+            //void WriteMethod(string customerName)
+            //{
+            //    Console.WriteLine(customerName);
+            //}
+
+            //WriteMethod("Nurullah Avcı");
+
+            //2
+
+            //void CustomerCard(string name, string surName)
+            //{
+            //    Console.WriteLine("Müşteri: " + name + " " + surName);
+
+            //}
+
+            //CustomerCard("Nurullah", "Avcı");
+            //CustomerCard("Tahir Ekrem", "Koru");
+
+
+            #endregion
+
+            #region Geriye Değer Döndürmeyen Int Parametreli Metotlar
+
+            //void Sum(int number1, int number2, int number3)
+            //{
+            //    int result = number1 + number2 + number3;
+            //    Console.WriteLine(result);
+            //}
+
+            //Sum(4, 5, 6);
+
+
+
+
+
+
+            #endregion
+
+            #region Geriye Değer Döndüren Metotlar
+
+
+
+
+
+
+
+
+            #endregion
             Console.Read();
         }
     }
