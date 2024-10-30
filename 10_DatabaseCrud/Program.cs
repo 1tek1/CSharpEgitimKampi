@@ -55,10 +55,17 @@ namespace _10_DatabaseCrud
             //command.ExecuteNonQuery();
             //connection.Close();
             //Console.Write("Ürün eklemesi başarılı!");
-            
+
             #endregion
 
+            #region Ürün Listeleme İşlemi
 
+
+
+
+
+
+            #endregion
             Console.Read();
 
 
