@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -60,12 +61,48 @@ namespace _10_DatabaseCrud
 
             #region Ürün Listeleme İşlemi
 
+            //SqlConnection connection = new SqlConnection("Data source=DESKTOP-VT90LDB;initial catalog=EgitimKampiDb;integrated security=true");
+            //connection.Open();
+            //SqlCommand command = new SqlCommand("Select * From TblProduct", connection);
+            //SqlDataAdapter adapter = new SqlDataAdapter(command);
+            //DataTable dataTable = new DataTable();
+            //adapter.Fill(dataTable);
+
+            //foreach (DataRow row in dataTable.Rows)
+            //{
+            //    foreach (var item in row.ItemArray)
+            //    {
+            //        Console.Write(item.ToString() + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //connection.Close();
 
 
 
 
 
             #endregion
+
+            #region Ürün Silme İşlemi
+
+            //Console.Write("Silinecek Ürün Id: ");
+            //int productId = int.Parse(Console.ReadLine());
+
+            //SqlConnection connection = new SqlConnection("Data source=DESKTOP-VT90LDB;initial catalog=EgitimKampiDb;integrated security=true");
+            //connection.Open();
+
+            //SqlCommand command = new SqlCommand("Delete From TblProduct Where ProductId = @productId",connection);
+            //command.Parameters.AddWithValue("@productId", productId);
+            //command.ExecuteNonQuery();
+
+            //connection.Close();
+
+            //Console.WriteLine("Silme işlemi yapıldı!");
+
+            #endregion
+
+
             Console.Read();
 
 
